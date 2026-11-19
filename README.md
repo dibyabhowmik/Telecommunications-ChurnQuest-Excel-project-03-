@@ -5,56 +5,56 @@ This project analyzes customer churn for a telecommunications business using 4,2
 behavior.
 The project was designed to identify customer characteristics associated with churn and estimate the potential revenue impact of customer loss.
 
-**Objectives:**
+•	**Objectives:**
 
 
-Measure the overall customer churn rate.
+1.	Measure the overall customer churn rate.
 
-Identify customer groups with higher churn.
+2.	Identify customer groups with higher churn.
 
-Analyze the relationship between service plans and churn.
+3.	Analyze the relationship between service plans and churn.
 
-Examine customer service interactions as a potential churn indicator.
+4.	Examine customer service interactions as a potential churn indicator.
 
-Analyze usage patterns and their relationship with churn.
+5.	Analyze usage patterns and their relationship with churn.
 
-Compare revenue and charges between churned and non-churned customers.
+6.	Compare revenue and charges between churned and non-churned customers.
 
-Explore monthly churn patterns.
+7.	Explore monthly churn patterns.
 
-Estimate potential revenue loss associated with churn.
+8.	Estimate potential revenue loss associated with churn.
 
-**Tools & Techniques Used:**
+•	**Tools & Techniques Used:**
 
-Microsoft Excel
+1.	Microsoft Excel
 
-Data cleaning and preparation
+•	Data cleaning and preparation
 
-Excel formulas
+2.	Excel formulas
 
-PivotTables
+3.	PivotTables
 
-Sorting and filtering
+4.	Sorting and filtering
 
-Conditional aggregation
+5.	Conditional aggregation
 
-Correlation analysis
+6.	Correlation analysis
 
-Customer segmentation
+7.	Customer segmentation
 
-Churn-rate calculations
+8.	Churn-rate calculations
 
-Date and month analysis
+9.	Date and month analysis
 
-Clustering / usage-group analysis
+10.	Clustering / usage-group analysis
 
-Synthetic date generation for time-based analysis
+11.	Synthetic date generation for time-based analysis
 
-Revenue impact calculations
+12.	Revenue impact calculations
 
-Charts and data visualization
+13.	Charts and data visualization
 
-**Process:**
+•	**Process:**
 
 
 **1. Data Preparation:**
@@ -135,12 +135,12 @@ Total monthly revenue associated with churned customers was approximately 39,188
 The workbook estimated an annual revenue impact of approximately 470,259 if the current churned-customer revenue were lost for
 another year.
 
-**Important Points:**
+•	**Important Points:**
 
 The telecommunications workbook uses synthetic dates because the original customer dataset did not contain an actual date/time variable. Therefore, the monthly churn analysis should be interpreted as an
 illustrative analytical exercise rather than evidence of real seasonal churn patterns.
 
-**Business Takeaway:**
+•	**Business Takeaway:**
 
 
 The strongest churn signals in this analysis were frequent customer service interactions, high overall usage, high daytime usage, and international-plan status. These patterns suggest that customer support history and usage behavior can be useful for identifying customers who
