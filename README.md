@@ -81,4 +81,44 @@ The analysis calculated the monthly revenue associated with churned customers an
 
 ## Key Insights
 
-| Metric
+| Metric / Finding | Result |
+|---|---:|
+| Overall churn rate | Approximately 14.1% |
+| Churned customers | 598 out of 4,250 |
+| International plan churn rate | Approximately 42% |
+| Churn rate for customers making more than 3 service calls | Approximately 51% |
+| Churn rate for customers making 3 or fewer service calls | Approximately 11% |
+| Churn rate for customers making 4 service calls | Approximately 44% |
+| Churn rate for customers making 5 or more service calls | Approximately 62% |
+| High Usage group churn rate | Approximately 28% |
+| Low Usage group churn rate | Approximately 12% |
+| Medium Usage group churn rate | Approximately 8% |
+| Churn rate for customers using more than 250 daytime minutes | Approximately 49% |
+| Average day minutes for churned customers | Approximately 209 minutes |
+| Average day minutes for non-churned customers | Approximately 176 minutes |
+| Average customer service calls for churned customers | Approximately 2.28 |
+| Average customer service calls for non-churned customers | Approximately 1.44 |
+| Correlation between account length and churn | Approximately 0.019 |
+| Correlation between total day minutes and churn | Approximately 0.215 |
+| Average monthly revenue associated with a churned customer | Approximately 65.53 |
+| Total monthly revenue associated with churned customers | Approximately 39,188 |
+| Estimated annual revenue impact | Approximately 470,259 |
+
+Additional findings:
+
+- Customers without an international plan had a much lower churn rate in the workbook's analysis.
+- Customers with a voicemail plan had a much lower churn rate in the workbook's analysis than customers without one.
+
+---
+
+## Important Points
+
+The telecommunications workbook uses synthetic dates because the original customer dataset did not contain an actual date/time variable. Therefore, the monthly churn analysis should be interpreted as an illustrative analytical exercise rather than evidence of real seasonal churn patterns.
+
+---
+
+## Business Takeaway
+
+The strongest churn signals in this analysis were frequent customer service interactions, high overall usage, high daytime usage, and international-plan status. These patterns suggest that customer support history and usage behavior can be useful for identifying customers who may require proactive retention attention.
+
+The revenue analysis also demonstrates how customer churn can translate into a measurable financial impact.
